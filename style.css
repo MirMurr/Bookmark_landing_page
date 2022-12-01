@@ -630,8 +630,8 @@ body {
 
 hr {
     display: block;
-    width: 80%;
     opacity: 70%;
+    width: 300px;
 }
 
 .navlinks.active { 
@@ -676,6 +676,7 @@ hr {
     font-weight: 400;
     letter-spacing: .22rem;
     padding: .7rem 0;
+    text-align: center;
 }
 
 .lock-scroll {
@@ -1068,6 +1069,10 @@ div.attribution {
 
     .login-btn.active {
         width: 15rem;
+    }
+
+    hr {
+        width: 260px;
     }
 
 }
